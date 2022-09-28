@@ -1,5 +1,2 @@
-# Headline
-
-> An awesome project.
-
-> 测试测试
+> [!NOTE]
+> 这是个人自建的文档站，没有体系，什么都记！
