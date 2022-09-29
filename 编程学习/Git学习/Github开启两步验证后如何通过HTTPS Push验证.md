@@ -7,6 +7,6 @@
 通过[Generate new token](https://github.com/settings/tokens)此链接生成新的个人访问令牌
 
 ## 验证
-用户名：原用户名
+**用户名**：原用户名
 
-密码：上面生成Personal access token
+**密码**：上面生成<code>Personal access token</code>
