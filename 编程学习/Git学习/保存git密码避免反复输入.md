@@ -10,12 +10,12 @@ git config --global credential.helper store
 
 若是想要在一定时间内保存，可以参考一下代码：
 
-**默认保存15分钟**
+<code>默认保存15分钟</code>
 
 ```bash
 git config --global credential.helper cache
 ```
-**可自定义保存时间（单位：秒）**
+<code>可自定义保存时间（单位：秒）</code>
 
 ```bash
 git config credential.helper 'cache --timeout=3600'
