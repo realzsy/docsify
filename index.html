@@ -111,10 +111,34 @@
         formatUpdated: "{YYYY}年{MM}月{DD}日{HH}点{mm}分",
         whereToPlace: "bottom"  // "top" or "bottom", default to "bottom"
       },
+      // 来必力评论系统
+      plugins: [
+        function (hook, vm) {
+          // 添加livere评论系统
+          hook.beforeEach(function(content) {
+              var comment = "<div id='lv-container' data-id='city' data-uid='MTAyMC81NzM0MS8zMzgwNQ=='></div>\n\n----\n"
+              return content + comment;
+          });
+          hook.doneEach(function() {
+            (function(d, s) {
+                var j, e = d.getElementsByTagName(s)[0];
+                if (typeof LivereTower === 'function') { return; }
+                j = d.createElement(s);
+                j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+                j.async = true;
+                e.parentNode.insertBefore(j, e);
+            })(document, 'script');
+          });
+          // 添加版权信息
+          hook.beforeEach(function(content) {
+              var copyRight = '文章作者: [Sawyer Cheung](mailto:zsy@outlook.at) \n\n'
+              +'转载请注明来自[疏记](https://www.shuji.pub/)！\n'
+              return content + copyRight;
+          });
+        },
+      ]
     }
 </script>
-    }
-  </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script><!-- 表情插件 -->
