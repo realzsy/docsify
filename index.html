@@ -129,12 +129,6 @@
                 e.parentNode.insertBefore(j, e);
             })(document, 'script');
           });
-          // 添加版权信息
-          hook.beforeEach(function(content) {
-              var copyRight = '文章作者: [Sawyer Cheung](mailto:zsy@outlook.at) \n\n'
-              +'转载请注明来自[疏记](https://www.shuji.pub/)！\n'
-              return content + copyRight;
-          });
         },
       ]
     }
