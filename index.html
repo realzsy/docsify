@@ -12,10 +12,10 @@
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
   <!-- fortawesome样式 -->
-  <link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/fontawesome.css" />
-  <link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/brands.css" />
-  <link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/regular.css" />
-  <link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/solid.css" />
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css" />
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/brands.min.css" />
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/regular.min.css" />
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/solid.min.css" />
   <!-- fortawesome样式结束 -->
   <script async defer data-website-id="77900743-d342-40bb-875d-d498772cb7ea" src="https://sitesta.vercel.app/umami.js"></script>
   <!-- markdown内标签卡样式 -->
@@ -118,7 +118,7 @@
                 var j, e = d.getElementsByTagName(s)[0];
                 if (typeof LivereTower === 'function') { return; }
                 j = d.createElement(s);
-                j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+                j.src = '/js/embed.dist.js';
                 j.async = true;
                 e.parentNode.insertBefore(j, e);
             })(document, 'script');
@@ -135,15 +135,15 @@
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script><!-- 代码高亮(bash) -->
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-php.min.js"></script><!-- 代码高亮(php) -->
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script><!-- 代码高亮(python) -->
-  <script src="//unpkg.com/docsify-count/dist/countable.js"></script><!-- 字数及时间统计插件 -->
-  <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script><!-- 文档内显示标签卡 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-count@1.1.0/dist/countable.min.js"></script><!-- 字数及时间统计插件 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-tabs@1"></script><!-- 文档内显示标签卡 -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script><!-- 图片放大插件 -->
   <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script><!-- 显示上一篇下一篇 -->
-  <script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script><!-- 个性化块引用样式 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-plugin-flexible-alerts@1.1.0"></script><!-- 个性化块引用样式 -->
   <script src="//cdn.jsdelivr.net/npm/docsify-pangu/lib/pangu.min.js"></script><!-- 中英文加空格 -->
   <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script><!-- 侧边栏折叠插件 -->
-  <script src="//unpkg.com/docsify-fontawesome/dist/docsify-fontawesome.min.js"></script><!-- 图标库 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-fontawesome@0.0.7/dist/docsify-fontawesome.min.js"></script><!-- 图标库 -->
   <script src="//cdn.jsdelivr.net/npm/@alertbox/docsify-footer/dist/docsify-footer.min.js"></script><!-- 页脚插件 -->
-  <script src="/runtime.js"></script><!-- 网站运行时间 -->
+  <script src="/js/runtime.js"></script><!-- 网站运行时间 -->
 </body>
 </html>
