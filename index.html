@@ -105,12 +105,6 @@
       // 添加页脚信息
       loadFooter: true,
       loadFooter: '_footer.md',
-      // 添加文档更新时间
-      timeUpdater: {
-        text: "<div align='center' width='200px' style='color:gray;font-size:15px'>-------------- 最后更新时间:&emsp;{docsify-updated} --------------</div>",
-        formatUpdated: "{YYYY}年{MM}月{DD}日{HH}点{mm}分",
-        whereToPlace: "bottom"  // "top" or "bottom", default to "bottom"
-      },
       // 来必力评论系统
       plugins: [
         function (hook, vm) {
@@ -151,7 +145,6 @@
   <script src="//unpkg.com/docsify-fontawesome/dist/docsify-fontawesome.min.js"></script><!-- 图标库 -->
   <script src="//cdn.jsdelivr.net/npm/@alertbox/docsify-footer/dist/docsify-footer.min.js"></script><!-- 页脚插件 -->
   <script src="/runtime.js"></script><!-- 网站运行时间 -->
-  <script src="https://cdn.jsdelivr.net/npm/docsify-updated/src/time-updater.min.js"></script><!-- 文章更新时间 -->
 
 
 </body>
