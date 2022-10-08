@@ -1,0 +1,43 @@
+/* 设置图片显示大小 */
+img[src*="#w100"] {
+    width: 100%;
+}
+
+img[src*="#w80"] {
+    width: 80%;
+}
+
+img[src*="#w60"] {
+    width: 20%;
+}
+
+img[src*="#w40"] {
+    width: 40%;
+}
+
+img[src*="#w50"] {
+    width: 50%;
+}
+
+img[src*="#w30"] {
+    width: 30%;
+}
+
+img[src*="#w20"] {
+    width: 20%;
+}
+
+img[src*="#w010"] {
+    width: 10%;
+}
+
+/* markdown内标签卡样式 */
+:root {
+    --docsifytabs-border-color: #ededed;
+    --docsifytabs-tab-highlight-color: rgb(23, 193, 199);
+}
+
+/* 表格整体居中 */
+markdown-section table {
+    margin: 0 auto;
+}
