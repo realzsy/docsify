@@ -31,6 +31,10 @@ img[src*="#w010"] {
     width: 10%;
 }
 
+img[src*="#wx"] {
+    width: 3%;
+}
+
 /* markdown内标签卡样式 */
 :root {
     --docsifytabs-border-color: #ededed;
