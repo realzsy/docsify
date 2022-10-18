@@ -41,3 +41,9 @@ img[src*="#w010"] {
 markdown-section table {
     margin: 0 auto;
 }
+
+.fa-r {
+    position: relative;
+    float: left;
+    top: 0.3rem;
+}
